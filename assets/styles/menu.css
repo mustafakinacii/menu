@@ -1,0 +1,361 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:  center;
+      -ms-flex-align:  center;
+          align-items:  center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+
+main {
+  display: -ms-grid;
+  display: grid; 
+  grid-auto-columns: 1fr; 
+  -ms-grid-columns: 1fr; 
+  grid-template-columns: 1fr; 
+  -ms-grid-rows: 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr 1.5vw 1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 1.5vw; 
+      grid-template-areas: 
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."
+    "."; 
+    background: white;
+} 
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  isolation: isolate;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.48) 0px 2px 4px;
+          box-shadow: rgba(0, 0, 0, 0.48) 0px 2px 4px;
+}
+
+.bg-1 {
+  background: url(/assets/images/mobile/00.jpg) no-repeat center;
+  background-size: contain;
+
+}
+.bg-2 {
+  background: url(/assets/images/mobile/01.jpg) no-repeat  bottom center;
+  background-size: contain;
+
+}
+.bg-3 {
+  background: url(/assets/images/mobile/02.jpg) no-repeat top center;
+  background-size: contain;
+}
+.bg-4 {
+  background: url(/assets/images/mobile/03.jpg) no-repeat center;
+  background-size: contain;
+
+}
+.bg-5 {
+  background: url(/assets/images/mobile/04.jpg) no-repeat  center;
+  background-size: contain;
+
+}
+.bg-6 {
+  background: url(/assets/images/mobile/05.jpg) no-repeat  center;
+  background-size: contain;
+
+}
+.bg-7 {
+  background: url(/assets/images/mobile/06.jpg) no-repeat center;
+  background-size: contain;
+
+}
+.bg-8 {
+  background: url(/assets/images/mobile/07.jpg) no-repeat center;
+  background-size: contain;
+
+}
+.bg-9 {
+  background: url(/assets/images/mobile/08.jpg) no-repeat center;
+  background-size: contain;
+
+}
+
+.bg-1::after {
+  content: "";
+  position: absolute;
+  background: rgb(74, 74, 74);
+  z-index: -1;
+  inset: 0;
+  opacity: .3;
+}
+
+.bg-2::after {
+  content: "";
+  position: absolute;
+  background: rgb(74, 74, 74);
+  z-index: -1;
+  inset: 0;
+  opacity: .3;
+}
+.bg-3::after {
+  content: "";
+  position: absolute;
+  background: rgb(74, 74, 74);
+  z-index: -1;
+  inset: 0;
+  opacity: .3;
+}
+.bg-4::after {
+  content: "";
+  position: absolute;
+  background: rgb(74, 74, 74);
+  z-index: -1;
+  inset: 0;
+  opacity: .3;
+}
+.bg-5::after {
+  content: "";
+  position: absolute;
+  background: rgb(74, 74, 74);
+  z-index: -1;
+  inset: 0;
+  opacity: .3;
+}
+.bg-6::after {
+  content: "";
+  position: absolute;
+  background: rgb(74, 74, 74);
+  z-index: -1;
+  inset: 0;
+  opacity: .3;
+}
+.bg-7::after {
+  content: "";
+  position: absolute;
+  background: rgb(74, 74, 74);
+  z-index: -1;
+  inset: 0;
+  opacity: .3;
+}
+.bg-8::after {
+  content: "";
+  position: absolute;
+  background: rgb(74, 74, 74);
+  z-index: -1;
+  inset: 0;
+  opacity: .3;
+}
+.bg-9::after {
+  content: "";
+  position: absolute;
+  background: rgb(74, 74, 74);
+  z-index: -1;
+  inset: 0;
+  opacity: .3;
+}
+
+section:active {
+  cursor: pointer;
+  background-color: #FEFEFE;
+  opacity: 0.5;
+}
+
+h2 {
+  color:white;
+  font-weight: 700;
+}
+
+div {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border: 1px solid white;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1119px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  main {
+    display: -ms-grid;
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    -ms-grid-columns: 1fr 1em 1fr 1em 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 1em 1em; 
+        grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."; 
+      background: white;
+      margin: 1em;
+  } 
+
+  .bg-1 {
+    background: url(/assets/images/00.png) no-repeat right bottom;
+    background-size: contain;
+    padding: 1em 2em;
+    
+  }
+  .bg-2 {
+    background: url(/assets/images/10.png) no-repeat bottom center;
+    background-size: contain;
+    padding: 1em 2em;
+  }
+  .bg-3 {
+    background: url(/assets/images/20.png) no-repeat left bottom;
+    background-size: contain;
+    padding: 1em 2em;
+  }
+  .bg-4 {
+    background: url(/assets/images/01.png) no-repeat right top;
+    background-size: contain;
+    padding: 1em 2em;
+  }
+  .bg-5 {
+    background: url(/assets/images/11.png) no-repeat center center;
+    background-size: contain;
+    padding: 1em 2em;
+  }
+  .bg-6 {
+    background: url(/assets/images/21.png) no-repeat left center;
+    background-size: contain;
+    padding: 1em 2em;
+  }
+  .bg-7 {
+    background: url(/assets/images/02.png) no-repeat right top;
+    background-size: contain;
+    padding: 1em 2em;
+  }
+  .bg-8 {
+    background: url(/assets/images/12.png) no-repeat center;
+    background-size: contain;
+    padding: 1em 2em;
+  }
+  .bg-9 {
+    background: url(/assets/images/22.png) no-repeat top left;
+    background-size: contain;
+    padding: 1em 2em;
+  }
+
+  div {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 50%;
+    border: 1px solid white;
+    margin: 0 1em;
+  }
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+h2 {
+  padding: 1em 2em;
+  color:white;
+  font-weight: 700;
+  font-size: 1.5vmax;
+}
+
+}
+
+@media screen and (max-width: 1119px) {
+  body {
+    overflow: scroll;
+  }
+  main{
+   min-width: 75% ;
+  }
+  section {
+    padding: 0 1.5em;
+  }
+div {
+  margin: 0 3vw;
+  height: 50%;
+}
+
+section:nth-child(1) {
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+section:nth-child(9) {  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;}
+
+
+section:nth-child(9)::after {
+  border-bottom-left-radius: .5em;
+  border-bottom-right-radius: .5em;
+}
+section:nth-child(1)::after {
+  border-top-left-radius: .5em;
+  border-top-right-radius: .5em;
+}
+h2 {
+  font-size: 3vmin;
+}
+}
